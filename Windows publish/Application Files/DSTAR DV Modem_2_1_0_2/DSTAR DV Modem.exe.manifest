@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="DSTAR DV Modem.exe" version="2.1.0.2" publicKeyToken="8965f2c59911b9ea" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="D-Star-Logo-quadrat64.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DSTAR DV Modem" version="2.1.0.1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DSTAR DV Modem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DSTAR DV Modem.exe" size="166400">
+      <assemblyIdentity name="DSTAR DV Modem" version="2.1.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+tzj0MoRLe7n5drgFpdjRX6FHXc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="af\DSTAR DV Modem.resources.dll" size="32768">
+      <assemblyIdentity name="DSTAR DV Modem.resources" version="2.1.0.1" language="af" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1N7C5Ccgnq/i8UYQOy0IOj64xJs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="D-Star-Logo-quadrat64.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0l4DH/PfUZoOpI26H5Av4SRu99Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BIG10\BIG10" issuerKeyHash="a0f11b01664abe9421d72f3dbcf649e10ad4ee05" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KBUlZcMpXfH9z5TYevvBCD8GCXo=</DigestValue></Reference></SignedInfo><SignatureValue>I2LvEY2ub3aROy+f/24VcdmH7t23u7WslLRquP9q2NcnORACnRS9HcE87X4uKETRL2W9Tlz+XZXpo6pJX2osyb8DFqmQriz1yb3dLWUfrtspYpTUfE4+bCUl95QqTLecBG7CqFYtYhuSqVhAMsXKQZu6fCgbzDuEB3aK2oa1az4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3QjhmYq3NUPQoN+vl1M7BZRrthY5uLEXDrxTPMMNqXud/58U4vw95XzSghmRh8Bfzhe08BuhRVIaqPF6phvW9Au0uX/5xgFFJQN2tcadesBTRGMErtoIfJuG0ztJSP9swhZZKQRVSnVe1N2lOKAvnSGlP7PB827envZkyOaM5bU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7a09063f08c1fb7ad894cffdf15d29c365251528" Description="" Url=""><as:assemblyIdentity name="DSTAR DV Modem.exe" version="2.1.0.2" publicKeyToken="8965f2c59911b9ea" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BIG10\BIG10</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f1iS6WrxYG11qUBGdLa9MDYEevQ=</DigestValue></Reference></SignedInfo><SignatureValue>yUmaDwL4DbsaDv590O4GemCbiqlTe1S+v7nIQz6Hk/k7zAxsOQ/w9YDRGj+Du67UC2pjcwpIXUbWSTfoUgyi7eNsAipxKvoABLojh+EbAPt5m11mfTnch3k9ysgL0ODEIsMBN+yP4Y3HQ71z/iBQq8aaBfcnbPmUh3jVFQW7iUw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3QjhmYq3NUPQoN+vl1M7BZRrthY5uLEXDrxTPMMNqXud/58U4vw95XzSghmRh8Bfzhe08BuhRVIaqPF6phvW9Au0uX/5xgFFJQN2tcadesBTRGMErtoIfJuG0ztJSP9swhZZKQRVSnVe1N2lOKAvnSGlP7PB827envZkyOaM5bU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQaMxbTOnBMIRFZ44iQkBQwTANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYAQgBJAEcAMQAwAFwAQgBJAEcAMQAwMB4XDTI0MDEzMDE3NDI0MloXDTI1MDEyOTIzNDI0MlowITEfMB0GA1UEAx4WAEIASQBHADEAMABcAEIASQBHADEAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3QjhmYq3NUPQoN+vl1M7BZRrthY5uLEXDrxTPMMNqXud/58U4vw95XzSghmRh8Bfzhe08BuhRVIaqPF6phvW9Au0uX/5xgFFJQN2tcadesBTRGMErtoIfJuG0ztJSP9swhZZKQRVSnVe1N2lOKAvnSGlP7PB827envZkyOaM5bUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAuXEhvHM4vPS9Tl4305mzalYIVDgb58P3XWSiq9CaosoXN1v7KyI+CRHJvIrewSUoxNOdbp/XOScqbbuX2K9MThzOVo0N53VY6CrAmdt1PXCPgHvTzlXZiYPOlpZakEhFUUYq/93ON6EzNzDdgzoUIH+0F2m/LDAVn0Gqc5XHO9g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
